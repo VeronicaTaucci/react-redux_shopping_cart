@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+/* products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.products li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.product img {
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+.product button{
+  font-size: 1.5rem;
+}
+
+/* cart items */
+
+.cart-items img {
+  width: 5rem;
+}
